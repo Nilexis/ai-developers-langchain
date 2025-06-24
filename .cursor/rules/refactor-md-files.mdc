@@ -1,0 +1,34 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Refactoring Copied Markdown Files
+
+When you encounter a Markdown (.md) file that contains copied or pasted text, follow these steps to refactor it into a clean, well-formatted Markdown file:
+
+1. **Remove Unnecessary Artifacts:**
+   - Delete any UI elements, buttons (e.g., 'Copy', 'Edit'), or unrelated instructions that were copied from other sources.
+   - Remove duplicate or irrelevant lines.
+
+2. **Structure Content Clearly:**
+   - Use appropriate Markdown headers (`#`, `##`, `###`, etc.) to organize sections and subsections.
+   - Add bullet points, numbered lists, or tables where it improves clarity.
+   - Ensure consistent spacing between sections.
+
+3. **Format Text Properly:**
+   - Use bold, italics, or inline code formatting where relevant.
+   - Ensure all code blocks are properly fenced with triple backticks and specify the language if needed.
+   - Fix any broken or inconsistent line breaks.
+
+4. **Language and Clarity:**
+   - Edit for concise, clear language.
+   - Correct any spelling or grammar mistakes.
+
+5. **Metadata:**
+   - Remove any metadata or comments that are not part of the intended content.
+
+6. **References:**
+   - If the file includes references or sources, format them as a proper Markdown list or section.
+
+> For more details on Markdown formatting, see [Markdown Guide](mdc:https:/www.markdownguide.org/basic-syntax)

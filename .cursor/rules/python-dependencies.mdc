@@ -1,0 +1,44 @@
+---
+description: New dependacies installation
+globs: 
+alwaysApply: false
+---
+# Python Dependencies Management
+
+## Requirements.txt Updates
+When installing new Python packages, always update the [requirements.txt](mdc:requirements.txt) file to maintain project consistency.
+
+### Guidelines:
+1. After installing a new package using pip, run:
+   ```bash
+   pip freeze > requirements.txt
+   ```
+   Or for a specific package:
+   ```bash
+   pip freeze | grep package_name >> requirements.txt
+   ```
+
+2. When adding dependencies manually:
+   - Use the format: `package_name>=version`
+   - Specify minimum version requirements
+   - Group related packages together
+   - Add comments for package purposes if needed
+
+### Best Practices:
+- Keep version numbers up to date
+- Document any version constraints
+- Review dependencies periodically
+- Remove unused packages
+- Test after updating requirements.txt
+
+### Common Commands:
+```bash
+# Install all dependencies
+pip install -r requirements.txt
+
+# Update a specific package
+pip install --upgrade package_name
+
+# Check outdated packages
+pip list --outdated
+```

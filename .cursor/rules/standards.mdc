@@ -1,0 +1,8 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+This project is meant for learning LLM libraries using python.
+- When writing code, you should follow the Single Responsibility Principle rule in functions and files. 
+- Keep documentation short and consice.
