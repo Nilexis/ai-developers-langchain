@@ -1,0 +1,30 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# How to Create a New Exercise
+
+To create a new exercise in this project, follow these steps:
+
+1. **File Naming:**
+   - Name the exercise file as `N_exercise_title.py`, where `N` is the exercise number and `exercise_title` is a descriptive name (use underscores, no spaces). Keep the title as short and concise as possible. For the solution, prefix the filename with `s_` (e.g., `3_s_dynamic_prompts_chatbot.py`).
+   - The exercise (starter) file should not have the `s_` prefix (e.g., `3_dynamic_prompts_chatbot.py`).
+
+2. **File Structure:**
+   - The exercise file should only contain the structure of the solution, with function/class definitions, leading comments, and docstrings as guidance. Do not include any implementation logic.
+   - Use clear comments to guide the student on what to implement, referencing the required steps and logic.
+   - If needed, use existing Gradio UI elements. If there isn't a fitting one, create a new file implementing a Gradio UI.
+   - All of the Gradio code should be given to the user, thus seperated in a seperate file from the exercise itself.
+
+3. **Separation of Concerns:**
+   - All logic (LLM, chain creation, response handling) should be implemented in the exercise file.
+   - The Gradio UI file should only contain the UI definition and expose a function to create the interface, accepting a callback for message handling.
+
+4. **Example Template:**
+   - See `[3_dynamic_prompts_chatbot.py](mdc:ex5/3_dynamic_prompts_chatbot.py)` for a template.
+
+5. **Instructions:**
+   - At the top of the exercise file, provide a block comment with a summary of the exercise and step-by-step instructions for the student.
+   - Use Gradio with stream
+
